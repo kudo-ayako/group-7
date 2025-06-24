@@ -1,0 +1,19 @@
+# macOS固有
+.DS_Store
+.Trash/
+Library/
+**/Library/
+**/.Trash/
+.TemporaryItems/
+
+# Node/Expo
+node_modules/
+.expo/
+build/
+dist/
+*.log
+
+# Office系
+*.xlsb
+*.tmp
+

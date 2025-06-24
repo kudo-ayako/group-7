@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "warayaki",
+    "slug": "warayaki",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yukio1103.warayaki"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.yukio1103.warayaki"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "749870b5-fdfb-4289-91b7-2b7609d966b1"
+      }
+    },
+    "jsEngine": "jsc",
+    "plugins": [
+
+      "expo-sqlite"
+    ]
+  }
+}

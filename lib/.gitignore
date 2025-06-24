@@ -1,0 +1,12 @@
+# OS/IDE
+.DS_Store
+node_modules/
+.expo/
+*.log
+
+# EAS/Expo
+build/
+dist/
+Library/
+.cache/
+
