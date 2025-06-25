@@ -1,0 +1,27 @@
+# Expoが自動生成するフォルダ
+.expo/
+
+# 依存関係のフォルダ（これが無いとアップロードに非常に時間がかかる）
+node_modules/
+
+# ビルド成果物
+dist/
+
+# エディタの設定ファイル
+.idea/
+
+# ネイティブプロジェクトのフォルダ（Managed Workflowでは不要）
+android/
+ios/
+
+# EASのメタデータ
+.eas/
+
+# Gitの履歴
+.git/
+
+# OS固有のファイル
+.DS_Store
+
+# 環境変数ファイル
+.env*
