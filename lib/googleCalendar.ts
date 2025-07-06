@@ -33,3 +33,20 @@ console.warn('認証が失敗しました');
 return null;
 }
 }
+export async function fetchCalendarEvents(accessToken: string): Promise<any[]> {
+const now = new Date().toISOString();
+const url = https://www.googleapis.com/calendar/v3/calendars/primary/events?timeMin=${now}&maxResults=10&singleEvents=true&orderBy=startTime;
+
+const res = await fetch(url, {
+headers: {
+Authorization: Bearer ${accessToken},
+},
+});
+
+if (!res.ok) {
+throw new Error('カレンダーを取得できませんでした');
+}
+
+const json = await res.json();
+return json.items || [];
+}
